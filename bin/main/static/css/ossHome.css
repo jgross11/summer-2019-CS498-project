@@ -1,0 +1,163 @@
+#siteHeader{
+    background-color: white;
+    height: 5%;
+}
+
+td{
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+}
+
+td:hover{
+    background-color: #444444;
+    color: white;
+    cursor:pointer;
+    overflow: hidden;
+}
+
+#validCell{
+    height: 100%;
+}
+
+tr{
+
+}
+
+#app{
+    width: 99%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#calendar{
+    width: 70%;
+    height: 100%;
+    float: left;
+    background-color: white;    
+}
+
+@media screen and (min-width: 1001px) {
+    
+    #calendar-header{
+        text-align: center;
+        font-size: 3vw;
+        width: 80%;
+        height: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-bottom: 2px solid black;
+    }  
+    
+    input{
+        width: 4vw;
+        font-size: 1vw;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    
+    #calendar-header{
+        text-align: center;
+        font-size: 4vw;
+        width: 80%;
+        height: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-bottom: 2px solid black;
+    }  
+    
+    input{
+        width: 6vw;
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    
+    #calendar-header{
+        text-align: center;
+        font-size: 5vw;
+        width: 80%;
+        height: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-bottom: 2px solid black;
+    }  
+    
+    input{
+        width: 10vw;
+        font-size: 3vw;
+    }
+}
+
+#calendar-info{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+#infoBox{
+    width: 29%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    background-color: white;
+}
+
+#infoHeader{
+    margin-top: 1%;
+    font-size: 125%;
+}
+
+#appointmentInfo{
+    margin-top: 5%;
+    font-size: 110%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    height: 25%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    margin-bottom: 5%;
+    
+}
+
+#appointmentInfo::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+#availableAppointments{
+    margin-top: 5%;
+    font-size: 110%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    height: 25%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+#appointmentSlot{
+    text-align: left;
+    width: 100%;
+    height: 20%;
+}
+
+#selectedTime{
+    width: 100%;
+    height: 100%;
+    background-color: darkcyan;
+}
+
+#appointmentSlot:hover{
+    background-color: lightblue;
+}
+
+#availableAppointments::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}

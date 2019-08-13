@@ -1,0 +1,23 @@
+#logInBox{
+    margin: 10% auto;
+    height: 175px;
+    width: 200px;
+    font-size: 130%;
+    text-align:center;
+    background-color: white;
+    border: 2px solid black;
+}
+#logInButton{
+    width: 38%;
+    float: left;
+    margin-left: 10%;
+}
+#newUserButton{
+    width: 38%;
+    float: right;
+    margin-right: 10%
+}
+input{
+    width:80%;
+    margin-top: 5%;
+}
